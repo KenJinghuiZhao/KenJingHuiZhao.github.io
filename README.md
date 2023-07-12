@@ -1,1 +1,0 @@
-this repository is to setup my personal homepage, to publish my app products, my writtings on quantitative investment etc.
