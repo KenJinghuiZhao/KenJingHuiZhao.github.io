@@ -4,22 +4,10 @@
     <title>KenBrowser Homepage</title>
     <style>
         h2 {text-align: center;}
-        ul {padding: 20px;}
-        div.screenshot_pic {
-            max-width: 700px;
-            display: flex;
-            justify-content: space-around;
-            align-items: flex-start;
-        }
-        div.screenshot_pic img {
-            width: 40%;
-            max-width: 300px;
-        }
-        div.screenshot_pic video {
-            width: 39%;
-            max-width: 300px;
-        }
-
+        ul {padding-left: 20px; line-height: 150%;}
+        div.screenshot_pic {max-width: 700px; display: flex; justify-content: space-around; align-items: flex-start;}
+        div.screenshot_pic img   {width: 40%; max-width: 300px;}
+        div.screenshot_pic video {width: 39%; max-width: 300px;}
         td {vertical-align: text-top;}
         td.first_column {white-space: nowrap; font-weight:bold}
     </style>
@@ -42,16 +30,15 @@ KenBrowser is a mobile browser that used in Android mobile devices. <br>
 <ul>
     <li>Tiny and clean, as small as only 4M in size. </li>
     <li>The unique <a href="#floating_button">Floating Button</a> to control webpage swipe, and auto-scroll. </li>
-    <li>Focuses on easy/quick moves on daily webpage browsing, with only one finger!</li>
+    <li>Focuses on easy/quick moves on daily webpage browsing, with only one finger and least actions!</li>
     <li><a href="#favorite_hide">Bookmarks</a> can be hidden. </li>
     <li>Support self-defined <a href="#JS_inject">javascript injecting</a>, support TamperMonkey scripts. </li>
 </ul>
 <br>
 
 
-
 <h3 id="main_UI_desc">2.App main UI：</h3>
-KenBrowser has only one main UI, with title bar in top, and button bar in bottom. Some buttons support both click and long-click actions.
+KenBrowser has only one main UI. Some of the buttons support both click and long-click actions.
 <br>
 <div class="screenshot_pic">
         <img src="./screenshots/1_main_ui_en.jpg" alt="Main UI" >
@@ -67,7 +54,7 @@ Floating button is an unique feature in KenBrowser, with which to control all ki
 <br>
 <table>
     <tr><td class="first_column">Click:</td><td>Click the floating button, will scroll webpage up. </td></tr>
-    <tr><td class="first_column">Dbl-click: </td><td>Will trigger webpage auto-scrolling. Can adjust scroll speed with popup buttons. 
+    <tr><td class="first_column">Dbl-click: </td><td>Will trigger webpage auto-scrolling. Can adjust scroll speed with popup +- buttons. 
         Click floating button again to stop.</td></tr>
     <tr><td class="first_column">Swipe:</td><td>Touch the button and swipe out of the button boundery, will trigger webpage swipe in 4 directions accordingly.</td></tr>
     <tr><td class="first_column">Lng-click: </td><td>Long-click button till a small vibrate, then drag the button and drop anywhere you want!</td></tr>
@@ -86,6 +73,7 @@ Floating button is an unique feature in KenBrowser, with which to control all ki
 
 <h3 id="favorite_hide">4.Hide bookmarks</h3>
 In the KenBrowser homepage, double-click the "Bookmark" title, will show the hidden bookmarks. (there is one hidden bookmark embedded with KB)<br>
+<br>
 Enter the "Favorite list" dialog (system menu, "Favorite List"), double-click the "Favorite List" title, will also show the hidden bookmarks in the list. 
 When showing hidden bookmarks, click the menu button and choose "Toggle hide/show" to change bookmark status.<br>
 <div class="screenshot_pic">
@@ -98,7 +86,8 @@ When showing hidden bookmarks, click the menu button and choose "Toggle hide/sho
 
 <h3 id="JS_inject">5.Injecting javascript</h3>
 KenBrowser is one of those few mobile browsers that support javascript injecting in webpage. It supports TamperMoney scripts as well.<br>
-In JS List dialog (System menu, "Setup"-"Injected Javascript"-"JS List"), can check the scripts that installed (a default js is installed as
+<br>
+In JS List dialog (System menu, "Setup"-"Injected Javascript"-"JS List"), can check the installed scripts (a default js is installed as
 <a href="https://greasyfork.org/zh-CN/scripts/472901-%E7%9F%A5%E4%B9%8E%E7%BD%91%E7%AB%99%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E5%99%A8%E5%A2%9E%E5%BC%BA">
     Zhihu website mobile enhancement</a>)<br>
 Click the item menu, will show menus to Delte, Modify and Share the javascripts. <br>
@@ -107,75 +96,88 @@ Click the item menu, will show menus to Delte, Modify and Share the javascripts.
 </div>
 <br>
 There are 2 ways to import javascript:<br>
-1. In your mobile's file management app, choose the js file, and share/send to KenBrowser.<br>
-2. In KenBrowser system menu, "Setup"-"Injected Javascript"-"Import JS", in the file pickup UI choose the js file you want, click OK.<br>
-<br>
-Hint: the imported javascript file should complie with TamperMoney script standard, i.e. filename and file head comments.<br>
-<br>
-In <a href="https://greasyfork.org/">Greasy Fork</a>, there are enormous amount of user scripts, that can extend KenBrowser functions unlimitely.
-You can check author's uploaded scripts, and your are welcome to upload your scripts as well:) <br>
-<br>
-<br>
-
-
-
-<h3 id="select_text">6.网页文本选择</h3>
-因为技术性的原因，现时在网页选择文本的操作有一点点复杂。日后将会改进。<br>
-操作：长按网页空白位置，弹出菜单-"选择文本"，进入文本选择模式。然后再长按文本选择文本。
-<br>
-<br>
-
-
-
-<h3 id="share_to_KB">7.分享到KenBrowser</h3>
-你可以在其它app分享内容到KenBrowser。现在KB支持以下格式的分享：<br>
 <table>
-    <tr><td class="first_column">纯文本：</td>          <td>在其它app选择文字或单词，分享到KB，将直接打开该关键字的搜索结果。</td></tr>
-    <tr><td class="first_column">html文件：</td>        <td>可以把一个html文件分享/发送给KenBrowser，将会打开该网页。</td></tr>
-    <tr><td class="first_column">js文件：</td>  <td>参考【链接】。</td></tr>
-    <tr><td class="first_column">剪贴板url：</td>      <td>在任意app复制url到剪贴板，然后进入KenBrowser，点击顶部标题栏的网址输入框，将提示问是否打开网址。</td></tr>
+    <tr><td class="first_column">1.</td><td>In your mobile's file management app, choose the js file, and share/send to KenBrowser.</td></tr>
+    <tr><td class="first_column">2. </td><td>In KenBrowser system menu, "Setup"-"Injected Javascript"-"Import JS", in the file pickup box choose the js file, click OK.</td></tr>
 </table>
 
 <br>
+Hint: the javascript file should complie with TamperMoney script standard, i.e. filename and file head comment format.<br>
 <br>
-
-
-
-<h3 id="share_from_KB">8.从KenBrowser分享</h3>
-在网页任意位置长按，在弹出菜单选择“保存/分享”，可以把当前网页的文本，或html源码分享给其它程序。<br>
-<br>
-<b>在其它浏览器打开本页：</b>KenBrowser专注于网页浏览，所以某些功能可能别的浏览器会更强大。你可以通过长按弹出菜单-“保存/分享”-“其它浏览器打开”，
-随时在别的浏览器打开当前网页，以便利用其它浏览器的强大功能。<br>
+In <a href="https://greasyfork.org/">Greasy Fork</a>, there are enormous user scripts, that can extend KenBrowser functions unlimitely.
+You can check <a href="https://greasyfork.org/zh-CN/scripts?q=Ken+Chiu">author's uploaded scripts</a>, and your are welcome to upload your own scripts as well:) <br>
 <br>
 <br>
 
 
 
-<h3 id="favorite_export_import">9.收藏夹书签的导出导入</h3>
-KenBrowser支持收藏夹书签的导入和导出。<br>
+<h3 id="select_text">6.Select Text Mode</h3>
+It is a bit inconvenient for now to select text in webpage, that will be improved some day later in future.<br>
 <br>
-导出：在主页长按弹出菜单，选择“保存/分享”-“分享本页html..”，就可把收藏夹分享给其它文本编辑app或手机文件管理器。然后在导出的文件上做插入、删除和修改。<br>
-<br>
-导入：把修改后的文件保存，然后分享/发送给KenBrowser，则KB会把文件里的书签融合到你现有的书签列表里。在主页刷新则可看到融合后的结果。<br>
-<br>
-注意：修改书签html文件时，只能修改书签部分，html的其它部分不要随意改动，否则KenBrowser不能正确识别。<br>
+Steps: 
+<table>
+<tr><td class="first_column">1. </td><td>Long-click the blank space in webpage, till popup context menu.</td></tr>
+<tr><td class="first_column">2. </td><td>Select "SelectText Mode" in popup menu.</td></tr>
+<tr><td class="first_column">2. </td><td>Long-click the text to select, till text be highlighted.</td></tr>
+</table>
 <br>
 <br>
 
 
 
-<h3 id="version_history">10.版本历史</h3>
+<h3 id="share_to_KB">7.Share to KenBrowser</h3>
+You can share content/file to KenBrowser from any other app. Currently KB supports below content:<br>
+<table>
+    <tr><td class="first_column">Plain text: </td>      <td>Select text/word from other app, share to KB, will open the keyword search result in KB.</td></tr>
+    <tr><td class="first_column">html file: </td>       <td>Can share/send a html file to KB, to open it in KB. </td></tr>
+    <tr><td class="first_column">js file: </td>         <td>See <a href="#JS_inject">javascript injecting</a></td></tr>
+    <tr><td class="first_column">url in clipboard: </td><td>Copy an URL in other app, then enter KB, click the top title bar, will prompt to ask whether open URL.</td></tr>
+</table>
+<br>
+<br>
+
+
+
+<h3 id="share_from_KB">8.Share from KenBrowser</h3>
+Long-click in webpage, in the popup menu choose "Save & share", can share the text content or html source of current page to other app.<br>
+<br>
+<b>Open in oth. browser: </b>KenBrowser focuses on webpage browsing, so there would be some other powerful functions in other web browser. 
+You can long=click and choose "Save & share"-"Open in oth. browser", to open current page in other browser, to best utilize their functions.<br>
+<br>
+<br>
+
+
+
+<h3 id="favorite_export_import">9.Bookmark import and export</h3>
+You can export and import bookmarks in KenBrowser.<br>
+<br>
+<table>
+<tr><td class="first_column">Export: </td><td>Open KB homepage, long-click the page till popup menu, choose "Save & copy"-"Share HTML to", 
+                                                to share bookmark file to other text edit app. And you can edit bookmarks there.</td></tr>
+<tr><td class="first_column">Import: </td><td>Save the file after edit, and share/send to KB, KB will merge those bookmarks with existing ones. 
+                                                Can refresh page to see the result. </td></tr>
+</table>
+<br>
+Hint: when editing html file, please only edit the bookmark part, do NOT change anything in other part, otherwise KB cannot read bookmark correctly. <br>
+<br>
+<br>
+
+
+
+<h3 id="version_history">10.History</h3>
 <b>v3.1：</b>2023/8/15<br>
-程序大幅重构优化，完善浮动按钮功能，完成自定义js注入功能、隐藏书签功能；github发布主页改版，软件市场上架。<br>
+Big program structure improvement, more mature killing features like floating button, self-defined javascript inject and hidden bookmark.
+Developed English version for app and release website, ready to release to app markets. <br>
 <br>
 <b>v2.7：</b>2023/5/2<br>
-支持内置js注入，已具备日常浏览功能，已经是自己日常使用时间最多的app；在github建立app发布主页，程序发布；版权中心申请软件著作版权。<br>
+With embedded javascript injected for Zhihu website, and with other mature browsing functions, KB already is the most frequently used app in my mobile. <br>
+Setup release website in Github, and applied for offcial copyright for next step publish. <br>
 <br>
 <b>v2.1：</b>2022/12/21<br>
-再次重拾KenBrowser，源码掉失，几乎从零开始再做一次。<br>
+Picked up KenBrowser again, but unfortunately lost all source codes, so had to develop KB again from scratch. <br>
 <br>
 <b>v1.2：</b>2021/9/13<br>
-学习android编程，开些编写KenBrowser作为练手的app。版本具备基本网页浏览功能。<br>
+Learning Android development, start to make KenBrowser as an exercise. KB can serve as basic browser in this version. <br>
 <br>
 <br>
 
