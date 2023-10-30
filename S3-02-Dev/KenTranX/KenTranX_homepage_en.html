@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KenTranX Homepage</title>
+
+
+
+    <style>
+        h2 {text-align: center;}
+        ul {padding-left: 20px; margin-top: 5px; line-height: 150%;}
+
+        div#pic_zoom_out {
+            display: none; align-items: center; justify-content: center;
+            top: 0; left: 0; width: 100%; height: 100%; position: fixed; 
+            background: rgba(0, 0, 0, 0.5);
+        }
+        div#pic_zoom_out img        {max-width: 90%; max-height: 90%; display: block; }
+
+        div.screenshot_pic          {max-width: 700px; display: flex; justify-content: space-around; align-items: flex-start;}
+        div.screenshot_pic img      {width: 40%; max-width: 300px;}
+        div.screenshot_pic video    {width: 39%; max-width: 300px;}
+
+        td                          {vertical-align: text-top;}
+        td.first_column             {white-space: nowrap; font-weight:bold}
+    </style>
+    <script>
+        function zoomOut(img_src) {
+            if (img_src!="") {      //显示图片放大div
+                document.getElementById("img_to_zoom").src=img_src;
+                document.getElementById("pic_zoom_out").style.display="flex";
+            } else {                //隐藏图片div
+                document.getElementById("pic_zoom_out").style.display="none";
+            } 
+        }
+    </script>
+</head>
+<body>
+<div id="pic_zoom_out" onclick="zoomOut('')">
+    <img id="img_to_zoom" src="./screenshots/2_main_ui_desc_zh.jpg" alt="界面元素说明">
+</div>
+    
+
+
+
+<h2>KenTranX Homepage</h2>
+Chinese version: <a href="">中文版网页</a><br>
+Latest download: <a href="">KenTranX.apk</a><br>
+<br>
+
+
+<h3 id="app_intro">1.App introduction: </h3>
+KenTranX is a translator that you can use your mobile phone camera to 'see' any language then translate it. <br>
+<br>
+
+<b>Key features:</b>
+<ul>
+    <li>Support words captured from camera, and image/text shared from other apps. </li>
+    <li>Most convinience to use. </li>
+    <li>Support Chinese, Japanese, Korean, English, France, Germany language</li>
+    <li>Support self-defined online dictionaries. </li>
+</ul>
+<br>
+
+
+<h3 id="main_UI_desc">2.App main UI：</h3>
+KenTranX main UI is like below. The bottom panel can be dragged up to see detail explains.
+<br>
+<div class="screenshot_pic">
+    <img src="" alt="Main UI" onclick="zoomOut(this.src)">
+    <img src="" alt="Main UI desc" onclick="zoomOut(this.src)">
+</div>
+<br>
+<br>
+
+
+
+
+
+<h3 id="version_history">10.History</h3>
+<b>v2.0：</b>2023/9/30<br>
+Demo succeeded, then start to build a real translator app using MLKit and TensorFlow Lite Task library. <br>
+<br>
+<b>v1.0：</b>2023/9/23<br>
+Heard about the Machine Learning Kit for Google, start to do a demo.<br>
+<br>
+<br>
+
+
+
+
+</body>
+</html>
+
+
