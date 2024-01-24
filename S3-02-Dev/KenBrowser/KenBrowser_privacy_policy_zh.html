@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>&#x300a;KenBrowser&#x9690;&#x79c1;&#x653f;&#x7b56;&#x300b;</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="-kenbrowser隐私政策">《KenBrowser隐私政策》</h1>
+<p>尊敬的KB浏览器（KenBrowser）用户：</p>
+<p>欢迎使用KenBrowser！为合乎中国互联网使用法律法规，依照个人信息保护条例规范，我们制订以下隐私政策。</p>
+<p>事实上KenBrowser是一个非常绿色且轻量的安卓手机浏览器，我们只专注于网页的浏览，并不包括任何其它的用户注册、信息推送、交友互动等功能。所以我们并不涉及任何用户个人信息的收集、上传和传播。请阅读以下文档详细细则，以了解我们在用户隐私信息保护方面所做的努力。</p>
+<p>本政策最后更新日期：2023-8-18</p>
+<p>本政策文档包括以下几方面的内容：</p>
+<ul>
+<li>本软件牵涉保存信息的功能模块</li>
+<li>我们保存什么信息及如何使用信息</li>
+<li>我们如何保护您的信息</li>
+<li>您的权利</li>
+<li>本政策如何更新</li>
+<li>如何联系我们</li>
+</ul>
+<h3 id="一牵涉用户信息的功能模块及信息的存储使用">一、牵涉用户信息的功能模块及信息的存储使用</h3>
+<p>如前所述，KenBrowser并没有用户注册、信息推送、交友互动等功能，所以我们不会收集任何用户账号名、账户密码、手机号码等任何个人私隐信息。但是，为实现浏览器的系统功能，程序在以下功能模块会牵涉一些用户操作和使用信息。详细如下。</p>
+<p><strong>1）系统菜单-收藏夹列表</strong>
+<em>存储信息：</em> 用户自己选择收藏的网页的标题和网址。
+<em>保存方式：</em> 所有的收藏书签都保存在一个内部html文件中。
+<em>保存位置：</em> 在安卓系统app私有的内部存储目录。
+<em>如何使用：</em> 启动app时调出收藏夹html，作为主页显示在浏览器中。也支持用户自己删除增加修改内容。
+<em>何时删除：</em> 当用户卸载app时，安卓系统会自动删除收藏夹html文件。
+<em>会否上传或共享：</em> html文件及里面的书签数据，只保存在用户的手机本地私有内存中，不会与手机中的其它app共享数据，也不会上传到任何服务器或第三方。</p>
+<p><strong>2）系统菜单-浏览历史列表</strong>
+<em>存储信息：</em> 用户关闭一个网页时，会将关闭网页的标题、网址保存起来，最多保存20个。
+<em>保存方式：</em> 以链表的方式保存在app的运行内存中。
+<em>保存位置：</em> 安卓系统app自己的运行内存，没有做任何的实例化，app退出则信息消失。
+<em>如何使用：</em> 用户点击系统菜单-“浏览历史”，显示列表内容让用户可以选择恢复该页。
+<em>何时删除：</em> app退出运行，则信息消失，不会做任何其它保存。
+<em>会否上传或共享：</em> 信息不会与手机中的其它app共享数据，也不会上传到任何服务器或第三方。</p>
+<p><strong>3）系统菜单-设置-注入javascript列表</strong>
+<em>存储信息：</em> 用户选择一个javascript脚本文件发送到KenBrowser后，app会把文件保存下来
+<em>保存方式：</em> 以js后缀的文本文件的方式保存
+<em>保存位置：</em> 保存在安卓系统app私有的内部存储目录。
+<em>如何使用：</em> 当用户访问指定网页时，app会调用js脚本以优化浏览的网页
+<em>何时删除：</em> 当用户卸载app时，安卓系统会自动删除保存的所有javascript文件。
+<em>会否上传或共享：</em> 所有导入的js文件只保存在用户的手机本地私有内存中，不会与手机中的其它app共享数据，也不会上传到任何服务器或第三方。</p>
+<p><strong>4）系统菜单-查看异常报告</strong>
+<em>存储信息：</em> 当app发生异常闪退时，为便于排查除错，系统会把闪退时的运行信息，和设备型号、app版本等保存下来。
+<em>保存方式：</em> 所有上述信息都保存在一个html文件中。
+<em>保存位置：</em> 保存在安卓系统app私有的内部存储目录。
+<em>如何使用：</em> 当app启动发现存在异常退出，或用户点击系统菜单-“查看异常报告”，则app会把包含上述错误信息的html在浏览器显示给用户，提示用户可以进一步分享或转发给作者便于查错。是否进一步分享，由用户自己操作决定。
+<em>何时删除：</em> 当用户卸载app时，安卓系统会自动删除保存的错误信息html文件。
+<em>会否上传或共享：</em> 文件只保存在用户的手机本地私有内存中，不会与手机中的其它app共享数据，也不会上传到任何服务器或第三方。</p>
+<p><strong>5）KB浏览器所基于的Chrome WebView内核</strong>
+<em>存储信息：</em> KenBrowser是基于Chrome的WebKit WebView内核开发的。当浏览器显示打开网页时，同所有其它浏览器一样，会保存网页缓存，及用户在一些网址上的登录信息。
+<em>保存方式：</em> 这部分数据及操作全部由Android的标准内核管理，KenBrowser没有任何控制
+<em>保存位置：</em> 保存在安卓系统app私有的内部存储目录。
+<em>如何使用：</em> 同所有其它浏览器一样，用户打开曾经访问过的网页，系统会调用本地缓存加快加载速度。
+<em>何时删除：</em> 当用户卸载app时，安卓系统会自动删除保存的所有网页缓存、及用户在网址的访问信息。
+<em>会否上传或共享：</em>  这部分数据及操作全部由Android的标准内核管理，KenBrowser没有任何控制。按照Android开发规范文档，数据只保存在用户的手机本地私有内存中，不会与手机中的其它app共享数据。</p>
+<h3 id="二我们如何保护你的个人信息">二、我们如何保护你的个人信息</h3>
+<p>KenBrowser是一个安装在用户移动设备本地的浏览器应用，没有任何配套的服务器、数据库或云平台等等。
+如前部分所述，为实现功能而保存的用户相关操作收藏信息，全部保存在手机的私有内部内存中，随着app的卸载而彻底永久删除。信息既不会与手机中的其它app共享（KenBrowser完全按照安卓app私有内部存储开发的开发规范编写，安卓系统会对app私有内部存储中的信息提供安全性私密性的保障），也不会上传到网络上的任何服务器或第三方平台。KenBrowser开发方不拥有上述的任何用户个人信息。</p>
+<h3 id="三您的权利">三、您的权利</h3>
+<p>如前所述，KenBrowser保存上述信息的目的是基于用户使用浏览器功能的方便性。而同时，对于上述信息您拥有以下权利：
+1）可以随时查看你提供、导入、保存的收藏夹、javascript脚本文件等信息及内容，可以随时修改、删除。
+2）你可以选择不提供上述信息，比如收藏夹书签、js脚本文件等等。
+3）你可以随时卸载程序，则程序所保存的所有用户相关信息，都将被安卓系统按照安卓信息安全规范全部彻底永久地删除。</p>
+<h3 id="四本政策如何更新">四、本政策如何更新</h3>
+<p>随着日后KenBrowser的功能改进版本迭代，个人信息保护政策有可能会变更。任何变更都将会发布在本页面，而且将会保留历次变更的版本痕迹。对于重大变更，我们也将会以显著的方式（比如在浏览器主页附加变更信息）通知用户，让用户考虑是否接受。</p>
+<h3 id="五如何联系我们">五、如何联系我们</h3>
+<p>如您对本隐私政策或个人信息的相关事宜有任何问题、意见或建议，请通过以下方式与我们联系。
+软件作者邮箱：kanchiu@163.com</p>
+
+        
+        
+    </body>
+    </html>
