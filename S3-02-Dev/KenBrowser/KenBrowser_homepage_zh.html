@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>KenBrowser发布主页</title>
-
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
 
     <style>
         h2 {text-align: center;}
@@ -19,7 +19,7 @@
         div.screenshot_pic img      {width: 40%; max-width: 300px;}
         div.screenshot_pic video    {width: 39%; max-width: 300px;}
         td                          {vertical-align: text-top;}
-        td.first_column             {white-space: nowrap; font-weight:bold}
+        td.first_column             {white-space: nowrap; font-weight:bold; padding: 0 20px;}
     </style>
     <script>
         function zoomOut(img_src) {
@@ -54,8 +54,8 @@
 
 <h2>KenBrowser发布主页</h2>
 英文版主页：<a href="./KenBrowser_homepage_en.html">English version homepage</a><br>
-最新版下载：<a href="./releases/KenBrowser_v3.2.0123.apk">KenBrowser_v3.2.0123.apk</a><br>
-反馈及评论: <a href="https://github.com/KenJinghuiZhao/KenBrowser/issues/1">Github issues</a><br>
+最新版下载：<a href="./releases/KenBrowser_v3.3.0131.apk">KenBrowser_v3.3.0131.apk</a><br>
+反馈及评论: <a href="https://github.com/KenJinghuiZhao/KenBrowser/issues/1">Github反馈</a><br>
 <br>
 
 
@@ -66,7 +66,7 @@ KenBrowser是一款应用在Android安卓移动设备上的手机浏览器。<br
 功能特点：
 <ul>
     <li>1) 界面简洁，程序小巧只有4M。</li>
-    <li>2) 独有的<a href="#floating_button">浮动按钮</a>操控滚动翻页，网页自动滚动可调速。</li>
+    <li>2) 独有的<a href="#floating_button">浮动按钮</a>操控上下左右翻页，网页自动滚动可调速。</li>
     <li>3) 专注操作便利性，一个手指头，最少的操作，即可完成日常网页浏览！</li>
     <li>4) 可隐藏的书签<a href="#favorite_hide">收藏夹</a>。</li>
     <li>5) 支持自定义的<a href="#JS_inject">javascript注入</a>，支持油猴脚本，扩展无限可能。</li>
@@ -142,8 +142,8 @@ js脚本导入有2种方式：<br>
 
 
 <h3 id="select_text">6.网页文本选择</h3>
-因为技术性的原因，现时在网页选择文本的操作有一点点复杂。日后将会改进。<br>
-操作：长按网页空白位置，弹出菜单-"选择文本"，进入文本选择模式。然后再长按文本选择文本。
+在v3.3版本，已经针对此功能做了优化。现在可以实现合适的网页文本选择功能了。<br>
+操作：长按网页的文本，弹出菜单-"选择文本"，即可进入文本选择模式。注意：长按链接不能触发“选择文本”功能，只能长按纯文本区域。
 <br>
 <br>
 
@@ -187,15 +187,23 @@ KenBrowser支持收藏夹书签的导入和导出。<br>
 
 
 <h3 id="version_history">10.版本历史</h3>
+<b>v3.3：</b>2024/1/31<br>
+完善了“文本选择”功能；网页和标题栏的嵌套滑动做了优化，滑动更加顺畅了；完成在GooglePlay和APKPure发布；
+<br>
+<br>
+
 <b>v3.1：</b>2023/8/15<br>
 程序大幅重构优化，完善浮动按钮功能，完成自定义js注入功能、隐藏书签功能；github发布主页改版。<br>
 <br>
+
 <b>v2.7：</b>2023/5/2<br>
 支持内置js注入，已具备日常浏览功能，已经是自己日常使用时间最多的app；在github建立app发布主页，程序发布；版权中心申请软件著作版权。<br>
 <br>
+
 <b>v2.1：</b>2022/12/21<br>
 再次重拾KenBrowser，源码掉失，几乎从零开始再做一次。<br>
 <br>
+
 <b>v1.2：</b>2021/9/13<br>
 学习android编程，开些编写KenBrowser作为练手的app。版本具备基本网页浏览功能。<br>
 <br>
