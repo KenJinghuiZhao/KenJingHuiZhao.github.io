@@ -1,51 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>KenBrowser Homepage</title>
+    <title>KenBrowser - a finger-friendly browser</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-
-    <style>
-        h2 {text-align: center;}
-        ul {padding-left: 20px; margin-top: 5px; line-height: 150%;}
-        li {list-style: none;}
-
-        div#pic_zoom_out {
-            display: none; align-items: center; justify-content: center;
-            top: 0; left: 0; width: 100%; height: 100%; position: fixed; 
-            background: rgba(0, 0, 0, 0.5);
-        }
-        div#pic_zoom_out img        {max-width: 90%; max-height: 90%; display: block; }
-
-        div.screenshot_pic          {max-width: 700px; display: flex; justify-content: space-around; align-items: flex-start;}
-        div.screenshot_pic img      {width: 40%; max-width: 300px;}
-        div.screenshot_pic video    {width: 39%; max-width: 300px;}
-
-        td                          {vertical-align: text-top;}
-        td.first_column             {white-space: nowrap; font-weight:bold; padding: 0 20px;}
-    </style>
-    <script>
-        function zoomOut(img_src) {
-            if (img_src!="") {      //显示图片放大div
-                document.getElementById("img_to_zoom").src=img_src;
-                document.getElementById("pic_zoom_out").style.display="flex";
-            } else {                //隐藏图片div
-                document.getElementById("pic_zoom_out").style.display="none";
-            } 
-        }
-    </script>
-
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?ce1a07844daef172634dc087a31b5cce";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="functions.js" type="text/javascript" language="javascript" charset="UTF-8"></script>
 </head>
 
 
+<!-- Google tag (gtag.js) Google统计代码，只在英文版网页添加-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9JSE1FNLK2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-9JSE1FNLK2');
+</script>
 
 
 
@@ -58,24 +29,24 @@
 
 
 <h2>KenBrowser Homepage</h2>
+
 Chinese version: <a href="./KenBrowser_homepage_zh.html">中文版网页</a><br>
 Latest download: <a href="./releases/KenBrowser_v3.3.0131.apk">KenBrowser_v3.3.0131.apk</a><br>
-Comment/feedback: <a href="https://github.com/KenJinghuiZhao/KenBrowser/issues/1">Github issues</a><br>
+Rate&Comment: <a href="https://play.google.com/store/apps/details?id=com.kenstudio.kenbrowser">Google Play</a>   ......please😉<br>
 <br>
 
 
 <h3 id="app_intro">1.Introduction: </h3>
-KenBrowser is a web browser that used in Android mobile devices. <br>
-If you are looking for a light-weight and "finger-friendly" Android browser, this is the one! <br> 
+If you tired of heavy, full-of-ad browsers, if you are lazy enough to wish browsing with least finger movement, then try KenBrowser :) <br>
 <br>
 
-<b>Key features:</b>
+<b>Key Contents:</b>
 <ul>
-    <li>1) Tiny and clean, as small as only 4M in size. </li>
-    <li>2) Webpage auto-scrolling. Swipe page up/down/left/right with <a href="#floating_button">Floating Button</a></li>
-    <li>3) Complete daily webpage browsing with only one finger and least finger moving!</li>
-    <li>4) Hide your private <a href="#favorite_hide">bookmarks</a>. </li>
-    <li>5) Self-defined <a href="#JS_inject">javascript injecting</a>, support TamperMonkey scripts. </li>
+    <li><a href="#main_UI_desc">Main UI</a></li>
+    <li><a href="#floating_button">Floating Button</a></li>
+    <li><a href="#favorite_hide">Hide Bookmarks</a></li>
+    <li><a href="#JS_inject">Inject Javascript</a></li>
+    <li><a href="#support_contact">Support Contact</a></li>
 </ul>
 <br>
 
@@ -160,7 +131,7 @@ Steps:
 <table>
 <tr><td class="first_column">1. </td><td>Long-click the plain text in webpage, till popup context menu.</td></tr>
 <tr><td class="first_column">2. </td><td>Select "SelectText Mode" in popup menu.</td></tr>
-<tr><td class="first_column">3. </td><td>Text select contextual menu will popup, continue as usual practice.</td></tr>
+<tr><td class="first_column">3. </td><td>Text select contextual menu will show, continue as usual practice.</td></tr>
 </table>
 <br>
 <br>
@@ -205,25 +176,33 @@ Hint: when editing html file, please only edit the bookmark part, do NOT change 
 <br>
 
 
-
-<h3 id="version_history">10.History</h3>
-<b>v3.3：</b>2024/1/31<br>
-Enhanced "Select Text Mode", perfectly serve the purpose now.
-Ehhanced webpage nested-scrolling with title bar, scrolling much more smoothly now.
-Published in GooglePlay and APKPure.
+<h3 id="support_contact">10.Support Contact</h3>
+If any issue or bug to report, please go:
+<a href="https://github.com/KenJinghuiZhao/KenBrowser/issues">Github issues</a>
+, or drop me a mail:
+<a href="mailto: kanchiu@163.com">kanchiu@163.com</a> <br>
 <br>
+<br>
+
+
+
+<h3 id="version_history">11.History</h3>
+<b>v3.3：</b>2024/1/31<br>
+- Enhanced "Select Text Mode", perfectly serve the purpose now.<br>
+- Ehhanced webpage nested-scrolling with title bar, scrolling much more smoothly now.<br>
+- Published in GooglePlay and APKPure.<br>
 <br>
 
 <b>v3.1：</b>2023/8/15<br>
-Big program structure improvement, more mature killing features like floating button, self-defined javascript inject and hidden bookmark.
-Developed English version for app and release website, ready to release to app markets. 
-<br>
+- Big source code structure improvement, more mature killing features
+  like floating button, self-defined javascript and hidden bookmark.<br>
+- Developed English version for app and release website, ready to release to app markets.<br>
 <br>
 
 <b>v2.7：</b>2023/5/2<br>
-With embedded javascript injected for Zhihu website, and with other mature browsing functions, KB already is the most frequently used app in my mobile. <br>
-Setup release website in Github, and applied for offcial copyright for next step publish. 
-<br>
+- With embedded javascript injected for Zhihu website, and with other mature browsing functions,
+  KB already is the most frequently used app in my mobile. <br>
+- Setup KenBrowser homepage in Github, and applied for official copyright for next step publish. <br>
 <br>
 
 <b>v2.1：</b>2022/12/21<br>
@@ -231,11 +210,19 @@ Picked up KenBrowser again, but unfortunately lost all source codes, so had to d
 <br>
 
 <b>v1.2：</b>2021/9/13<br>
-Learning Android development, start to make KenBrowser as an exercise. KB can serve as basic browser in this version. <br>
+Start to make KenBrowser as an exercise in my Android study. KB can serve as a basic browser in this version. <br>
 <br>
 <br>
 
-
+<b>v0：</b>Why KenBrowser exist<br>
+I have used quite some famous mobile browsers in market.
+I am tired of those apps with lots of ad, with heavy functions that I really don't need, e.g. news-feed pushing etc.
+Further more, I found it is kind of stupid for those apps that you need a lot of finger actions for simple daily browsing.<br>
+So I decided to learn Android development and make a browser for myself.
+<br>
+<br>
+<br>
+<br>
 
 
 </body>

@@ -1,0 +1,104 @@
+
+
+TITLE (27/30):
+KenBrowser, finger-friendly
+
+
+SHORT DESC(79/80):
+A tiny & green browser, auto-scroll, hide bookmarks, surf with only one finger.
+
+
+
+LONG DESC:
+If you tired of heavy, full-of-ad browsers, if you are lazy enough to wish browsing with least finger movement, then try KenBrowser :)
+
+✔Tiny and Clean
+Small size of 4m; no ad; no user registration; no news-pushing, pure web browsing.
+
+✔Auto Scroll
+Auto scroll webpages, scroll speed adjustment, perfect for pics and book reading.
+
+👆Finger Friendly
+Just one finger to open/close/scale webpages, and swipe screen up/down/left/right;
+exceeding all mobile browsers in market by surfing with least finger movement.
+
+✔Hide Bookmarks
+Hide your personal private bookmarks.
+
+✔Inject Javascript
+Extend unlimited functions, e.g. ad-blocking, video downloading etc.
+
+✔Easy tabs switching
+Simple and quick tab list, to switch and close tab.
+
+✔Night Mode
+Night mode for all webpages.
+
+✔Private and Incognito
+No user registration, no any server side to connect, visit history cleared after exit.
+
+
+CONTACT FOR SUPPORT: 
+================
+if any issues/bug, please:
+1) Log issue in https://github.com/KenJinghuiZhao/KenBrowser/issues, so that I can follow up, or
+2) Drop me a mail: kanchiu@163.com
+
+
+
+
+
+
+
+
+
+
+
+
+TITLE (28/30):
+KB浏览器 - 单手指操控的浏览器
+KB浏览器 - 懒人的浏览器！
+
+
+
+SHORT DESC(79/80):
+一个干净小巧的安卓浏览器，可自动滚动，隐藏书签，最少的手指动作浏览网页！
+
+
+LONG DESC:
+如果你和我一样厌倦了市场上各种功能臃肿、满是广告的浏览器，如果你和我一样是个懒人，手指头都不愿意多动一动，那么，试用一下 KB浏览器 吧:)
+
+✔干净小巧
+只有4m大小，无广告，无需注册，无推送，纯净的浏览器。
+
+✔自动滚动
+可自动滚动网页，滚动速度可调，最适合懒人看书和图片多的网页。
+
+👆一个手指就可操控
+只用一个手指头，几乎不用移动距离，就可完成网页打开/关闭/缩放，和上下左右翻屏等日常操作。
+浏览网页的操作简便性，超越市场上的所有移动端浏览器。
+
+✔隐藏书签
+可以隐藏你的个人书签
+
+✔支持脚本
+导入油猴格式的脚本，可无限扩充浏览器功能，比如各种广告过滤、视频下载等。
+
+✔网页列表
+快捷打开已打开网页列表，拖动改变顺序或关闭。
+
+✔暗夜模式
+支持所有网页的暗夜模式显示
+
+✔隐私保护
+本应用没有任何服务器端，也无需注册账户，绝无个人数据传输；退出应用即消除浏览痕迹。
+
+
+
+技术支持：
+======
+如果有任何使用问题或缺陷需要回应，请发邮件到：kanchiu@163.com。
+
+
+
+

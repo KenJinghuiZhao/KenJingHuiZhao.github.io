@@ -1,46 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>KenBrowser发布主页</title>
+    <title>KB浏览器 - 单手指操控的浏览器</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-
-    <style>
-        h2 {text-align: center;}
-        ul {padding-left: 20px; margin-top: 5px; line-height: 150%;}
-        li {list-style: none;}
-
-        div#pic_zoom_out {
-            display: none; align-items: center; justify-content: center;
-            top: 0; left: 0; width: 100%; height: 100%; position: fixed; 
-            background: rgba(0, 0, 0, 0.5);
-        }
-        div#pic_zoom_out img        {max-width: 90%; max-height: 90%; display: block; }
-        div.screenshot_pic          {max-width: 700px; display: flex; justify-content: space-around; align-items: flex-start;}
-        div.screenshot_pic img      {width: 40%; max-width: 300px;}
-        div.screenshot_pic video    {width: 39%; max-width: 300px;}
-        td                          {vertical-align: text-top;}
-        td.first_column             {white-space: nowrap; font-weight:bold; padding: 0 20px;}
-    </style>
-    <script>
-        function zoomOut(img_src) {
-            if (img_src!="") {      //显示图片放大div
-                document.getElementById("img_to_zoom").src=img_src;
-                document.getElementById("pic_zoom_out").style.display="flex";
-            } else {                  //隐藏图片div
-                document.getElementById("pic_zoom_out").style.display="none";
-            } 
-        }
-    </script>
-
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?ce1a07844daef172634dc087a31b5cce";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="functions.js" type="text/javascript" language="javascript" charset="UTF-8"></script>
 </head>
 
 
@@ -52,24 +17,25 @@
 
 
 
-<h2>KenBrowser发布主页</h2>
+<h2>KB浏览器主页</h2>
+
 英文版主页：<a href="./KenBrowser_homepage_en.html">English version homepage</a><br>
 最新版下载：<a href="./releases/KenBrowser_v3.3.0131.apk">KenBrowser_v3.3.0131.apk</a><br>
-反馈及评论: <a href="https://github.com/KenJinghuiZhao/KenBrowser/issues/1">Github反馈</a><br>
+评分及评价：<a href="https://play.google.com/store/apps/details?id=com.kenstudio.kenbrowser">Google Play</a> <br>
 <br>
 
 
 <h3 id="app_intro">1.应用描述：</h3>
-KenBrowser是一款应用在Android安卓移动设备上的手机浏览器。<br>
+如果你和我一样厌倦了市场上各种功能臃肿、满是广告的浏览器，如果你和我一样是个懒人，手指头都不愿意多动一动，那么，试用一下 KB浏览器 吧:)<br>
 <br>
 
-功能特点：
+关键内容：
 <ul>
-    <li>1) 界面简洁，程序小巧只有4M。</li>
-    <li>2) 独有的<a href="#floating_button">浮动按钮</a>操控上下左右翻页，网页自动滚动可调速。</li>
-    <li>3) 专注操作便利性，一个手指头，最少的操作，即可完成日常网页浏览！</li>
-    <li>4) 可隐藏的书签<a href="#favorite_hide">收藏夹</a>。</li>
-    <li>5) 支持自定义的<a href="#JS_inject">javascript注入</a>，支持油猴脚本，扩展无限可能。</li>
+    <li><a href="#main_UI_desc">主界面说明</a></li>
+    <li><a href="#floating_button">浮动按钮</a></li>
+    <li><a href="#favorite_hide">隐藏书签</a></li>
+    <li><a href="#JS_inject">脚本注入</a></li>
+    <li><a href="#support_contact">问题/报障</a></li>
 </ul>
 <br>
 
@@ -186,18 +152,32 @@ KenBrowser支持收藏夹书签的导入和导出。<br>
 
 
 
-<h3 id="version_history">10.版本历史</h3>
-<b>v3.3：</b>2024/1/31<br>
-完善了“文本选择”功能；网页和标题栏的嵌套滑动做了优化，滑动更加顺畅了；完成在GooglePlay和APKPure发布；
+<h3 id="support_contact">10.问题及报障</h3>
+如果使用中发现问题希望得到回应，请在
+<a href="https://github.com/KenJinghuiZhao/KenBrowser/issues">Github问题</a>
+录入, 或者发邮件到：
+<a href="mailto: kanchiu@163.com">kanchiu@163.com</a> <br>
 <br>
+<br>
+
+
+
+<h3 id="version_history">11.版本历史</h3>
+<b>v3.3：</b>2024/1/31<br>
+- 完善了“文本选择”功能；<br>
+- 网页和标题栏的嵌套滑动做了优化，滑动更加顺畅了；<br>
+- 完成在GooglePlay和APKPure发布；<br>
 <br>
 
 <b>v3.1：</b>2023/8/15<br>
-程序大幅重构优化，完善浮动按钮功能，完成自定义js注入功能、隐藏书签功能；github发布主页改版。<br>
+- 程序大幅重构优化，完善浮动按钮功能，完成自定义js注入功能、隐藏书签功能；<br>
+- github发布主页改版。<br>
 <br>
 
 <b>v2.7：</b>2023/5/2<br>
-支持内置js注入，已具备日常浏览功能，已经是自己日常使用时间最多的app；在github建立app发布主页，程序发布；版权中心申请软件著作版权。<br>
+- 支持内置js注入，已具备日常浏览功能，已经是自己日常使用时间最多的app；<br>
+- 在github建立app发布主页，程序发布；<br>
+- 版权中心申请软件著作版权。<br>
 <br>
 
 <b>v2.1：</b>2022/12/21<br>
@@ -205,7 +185,16 @@ KenBrowser支持收藏夹书签的导入和导出。<br>
 <br>
 
 <b>v1.2：</b>2021/9/13<br>
-学习android编程，开些编写KenBrowser作为练手的app。版本具备基本网页浏览功能。<br>
+学习android编程，以KenBrowser作为练手的app。此版本具备了基本网页浏览功能。<br>
+<br>
+<br>
+
+<b>v0：</b>为什么做KB浏览器<br>
+在手机上用了很多市场上知名的安卓浏览器，发现都很多广告，或者配套了很多我并不需要的功能，比如新闻推送等等。用的很不爽。
+而且即使是大厂的浏览器，使用起来也很不方便，简单的日常网页浏览都需要很多的手指动作。<br>
+忍无可忍，学习安卓编程自己做一个吧。
+<br>
+<br>
 <br>
 <br>
 
