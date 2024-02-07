@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>KB浏览器 - 单手指操控的浏览器</title>
+    <title>KB浏览器 - 你手指会喜欢的浏览器</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -26,15 +26,14 @@
 
 
 <h3 id="app_intro">1.应用描述：</h3>
-如果你和我一样厌倦了市场上各种功能臃肿、满是广告的浏览器，如果你和我一样是个懒人，手指头都不愿意多动一动，那么，试用一下 KB浏览器 吧:)<br>
+如果你厌倦了市场上各种功能臃肿、满是广告的浏览器，如果你和我一样是个懒人，手指头都不愿意多动一动，那么，试用一下 KB浏览器 吧:)<br>
 <br>
 
 关键内容：
 <ul>
     <li><a href="#main_UI_desc">主界面说明</a></li>
-    <li><a href="#floating_button">浮动按钮</a></li>
-    <li><a href="#favorite_hide">隐藏书签</a></li>
-    <li><a href="#JS_inject">脚本注入</a></li>
+    <li><a href="#floating_button">浮动按钮</a>，<a href="#longclick_menu">长按弹出菜单</a></li>
+    <li><a href="#favorite_hide">隐藏书签</a>，<a href="#JS_inject">脚本注入</a></li>
     <li><a href="#support_contact">问题/报障</a></li>
 </ul>
 <br>
@@ -71,7 +70,21 @@
 
 
 
-<h3 id="favorite_hide">4.可隐藏的收藏夹</h3>
+<h3 id="longclick_menu">4.长按弹出菜单：</h3>
+在网页链接或文本上长按，将弹出快捷菜单，可完成日常网页浏览动作如：打开链接，关闭页，刷新等。<br>
+<br>
+长按菜单和浮动按钮一起，就可实现几乎不移动手指，而完成日常网页的浏览！<br>
+
+<div class="screenshot_pic">
+    <img src="./screenshots/3_Longclick_menu.png" alt="Long-click menu" onclick="zoomOut(this.src)">
+</div>
+
+<br>
+<br>
+
+
+
+<h3 id="favorite_hide">5.可隐藏的收藏夹</h3>
 在浏览器的主页，双击“Bookmarks”标题，将显示被隐藏的书签。程序自带有一个隐藏的书签。<br>
 <br>
 进入收藏夹配置界面（系统菜单-“收藏夹”），在配置界面同样双击“收藏夹”标题，也会在列表显示隐藏的书签。显示隐藏书签时，点击右边菜单按钮，选择“隐藏/显示”，则可改变书签项的显示属性。<br>
@@ -84,7 +97,7 @@
 
 
 
-<h3 id="JS_inject">5.自定义javascript注入</h3>
+<h3 id="JS_inject">6.自定义javascript注入</h3>
 KenBrowser是少有的支持注入自定义javascript脚本和油猴脚本的手机浏览器。<br>
 在JS列表界面（系统菜单，“设置”-“注入JS管理”-“JS列表”），可查看当前已安装的脚本(缺省已安装
 <a href="https://greasyfork.org/zh-CN/scripts/472901-%E7%9F%A5%E4%B9%8E%E7%BD%91%E7%AB%99%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E5%99%A8%E5%A2%9E%E5%BC%BA">
@@ -107,7 +120,7 @@ js脚本导入有2种方式：<br>
 
 
 
-<h3 id="select_text">6.网页文本选择</h3>
+<h3 id="select_text">7.网页文本选择</h3>
 在v3.3版本，已经针对此功能做了优化。现在可以实现合适的网页文本选择功能了。<br>
 操作：长按网页的文本，弹出菜单-"选择文本"，即可进入文本选择模式。注意：长按链接不能触发“选择文本”功能，只能长按纯文本区域。
 <br>
@@ -115,7 +128,7 @@ js脚本导入有2种方式：<br>
 
 
 
-<h3 id="share_to_KB">7.分享到KenBrowser</h3>
+<h3 id="share_to_KB">8.分享到KenBrowser</h3>
 你可以在其它app分享内容到KenBrowser。现在KB支持以下格式的分享：<br>
 <table>
     <tr><td class="first_column">纯文本：</td>          <td>在其它app选择文字或单词，分享到KB，将直接打开该关键字的搜索结果。</td></tr>
@@ -129,7 +142,7 @@ js脚本导入有2种方式：<br>
 
 
 
-<h3 id="share_from_KB">8.从KenBrowser分享</h3>
+<h3 id="share_from_KB">9.从KenBrowser分享</h3>
 在网页任意位置长按，在弹出菜单选择“保存/分享”，可以把当前网页的文本，或html源码分享给其它程序。<br>
 <br>
 <b>在其它浏览器打开本页：</b>KenBrowser专注于网页浏览，所以某些功能可能别的浏览器会更强大。你可以通过长按弹出菜单-“保存/分享”-“其它浏览器打开”，
@@ -139,7 +152,7 @@ js脚本导入有2种方式：<br>
 
 
 
-<h3 id="favorite_export_import">9.收藏夹书签的导出导入</h3>
+<h3 id="favorite_export_import">10.收藏夹书签的导出导入</h3>
 KenBrowser支持收藏夹书签的导入和导出。<br>
 <br>
 导出：在主页长按弹出菜单，选择“保存/分享”-“分享本页html..”，就可把收藏夹分享给其它文本编辑app或手机文件管理器。然后在导出的文件上做插入、删除和修改。<br>
@@ -152,7 +165,7 @@ KenBrowser支持收藏夹书签的导入和导出。<br>
 
 
 
-<h3 id="support_contact">10.问题及报障</h3>
+<h3 id="support_contact">11.问题及报障</h3>
 如果使用中发现问题希望得到回应，请在
 <a href="https://github.com/KenJinghuiZhao/KenBrowser/issues">Github问题</a>
 录入, 或者发邮件到：
@@ -162,7 +175,7 @@ KenBrowser支持收藏夹书签的导入和导出。<br>
 
 
 
-<h3 id="version_history">11.版本历史</h3>
+<h3 id="version_history">12.版本历史</h3>
 <b>v3.3：</b>2024/1/31<br>
 - 完善了“文本选择”功能；<br>
 - 网页和标题栏的嵌套滑动做了优化，滑动更加顺畅了；<br>

@@ -1,7 +1,7 @@
 
 
 TITLE (27/30):
-KenBrowser, finger-friendly
+KenBrowser: finger-friendly
 
 
 SHORT DESC(79/80):
@@ -15,10 +15,10 @@ If you tired of heavy, full-of-ad browsers, if you are lazy enough to wish brows
 ✔Tiny and Clean
 Small size of 4m; no ad; no user registration; no news-pushing, pure web browsing.
 
-✔Auto Scroll
+✔️Auto Scroll
 Auto scroll webpages, scroll speed adjustment, perfect for pics and book reading.
 
-👆Finger Friendly
+👉Finger Friendly
 Just one finger to open/close/scale webpages, and swipe screen up/down/left/right;
 exceeding all mobile browsers in market by surfing with least finger movement.
 
