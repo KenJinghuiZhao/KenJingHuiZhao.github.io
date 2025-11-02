@@ -1,0 +1,130 @@
+{
+  "version": "4.4.1.0",
+  "configs": [
+    {
+      "server": "",
+      "server_port": 8388,
+      "password": "",
+      "method": "chacha20-ietf-poly1305",
+      "timeout": 5,
+      "warnLegacyUrl": false
+    },
+    {
+      "server": "lmnode-867dfc26.ixd3fh2v5uqlv3z-lmtw.lmsnodes.com",
+      "server_port": 50021,
+      "password": "68c5f008-ec5d-4a11-bc7b-039e6d8db01a",
+      "method": "aes-128-gcm",
+      "remarks": "SS-台湾 01",
+      "group": "https://lmlla.lmscunb.pro:2087/api/v1/client/subscribe?token=55e97c9b462c6309d789c34eeb948c88",
+      "timeout": 5,
+      "warnLegacyUrl": false
+    },
+    {
+      "server": "lmnode-867dfc26.ixd3fh2v5uqlv3z-lmtw.lmsnodes.com",
+      "server_port": 50022,
+      "password": "68c5f008-ec5d-4a11-bc7b-039e6d8db01a",
+      "method": "aes-128-gcm",
+      "remarks": "SS-台湾 02",
+      "group": "https://lmlla.lmscunb.pro:2087/api/v1/client/subscribe?token=55e97c9b462c6309d789c34eeb948c88",
+      "timeout": 5,
+      "warnLegacyUrl": false
+    },
+    {
+      "server": "lmnode-867dfc26.ixd3fh2v5uqlv3z-lmtw.lmsnodes.com",
+      "server_port": 50023,
+      "password": "68c5f008-ec5d-4a11-bc7b-039e6d8db01a",
+      "method": "aes-128-gcm",
+      "remarks": "SS-台湾 03",
+      "group": "https://lmlla.lmscunb.pro:2087/api/v1/client/subscribe?token=55e97c9b462c6309d789c34eeb948c88",
+      "timeout": 5,
+      "warnLegacyUrl": false
+    },
+    {
+      "server": "lmnode-867dfc26.ixd3fh2v5uqlv3z-lmtw.lmsnodes.com",
+      "server_port": 50024,
+      "password": "68c5f008-ec5d-4a11-bc7b-039e6d8db01a",
+      "method": "aes-128-gcm",
+      "remarks": "SS-台湾 04",
+      "group": "https://lmlla.lmscunb.pro:2087/api/v1/client/subscribe?token=55e97c9b462c6309d789c34eeb948c88",
+      "timeout": 5,
+      "warnLegacyUrl": false
+    },
+    {
+      "server": "lmnode-867dfc26.ixd3fh2v5uqlv3z-lmtw.lmsnodes.com",
+      "server_port": 50025,
+      "password": "68c5f008-ec5d-4a11-bc7b-039e6d8db01a",
+      "method": "aes-128-gcm",
+      "remarks": "SS-台湾 05",
+      "group": "https://lmlla.lmscunb.pro:2087/api/v1/client/subscribe?token=55e97c9b462c6309d789c34eeb948c88",
+      "timeout": 5,
+      "warnLegacyUrl": false
+    }
+  ],
+  "onlineConfigSource": [
+    "https://lmlla.lmscunb.pro:2087/api/v1/client/subscribe?token=55e97c9b462c6309d789c34eeb948c88"
+  ],
+  "strategy": null,
+  "index": 1,
+  "global": false,
+  "enabled": true,
+  "shareOverLan": false,
+  "firstRun": false,
+  "localPort": 1080,
+  "portableMode": true,
+  "showPluginOutput": false,
+  "pacUrl": "",
+  "useOnlinePac": false,
+  "secureLocalPac": true,
+  "regeneratePacOnUpdate": true,
+  "autoCheckUpdate": false,
+  "checkPreRelease": false,
+  "skippedUpdateVersion": "",
+  "isVerboseLogging": false,
+  "isIPv6Enabled": false,
+  "generateLegacyUrl": false,
+  "geositeUrl": "",
+  "geositeSha256sumUrl": "",
+  "geositeDirectGroups": [
+    "private",
+    "cn",
+    "geolocation-!cn@cn"
+  ],
+  "geositeProxiedGroups": [
+    "geolocation-!cn"
+  ],
+  "geositePreferDirect": false,
+  "userAgent": "ShadowsocksWindows/$version",
+  "logViewer": {
+    "topMost": false,
+    "wrapText": false,
+    "toolbarShown": false,
+    "Font": "Consolas, 8pt",
+    "BackgroundColor": "Black",
+    "TextColor": "White"
+  },
+  "proxy": {
+    "useProxy": false,
+    "proxyType": 0,
+    "proxyServer": "",
+    "proxyPort": 0,
+    "proxyTimeout": 3,
+    "useAuth": false,
+    "authUser": "",
+    "authPwd": ""
+  },
+  "hotkey": {
+    "SwitchSystemProxy": "",
+    "SwitchSystemProxyMode": "",
+    "SwitchAllowLan": "",
+    "ShowLogs": "",
+    "ServerMoveUp": "",
+    "ServerMoveDown": "",
+    "RegHotkeysAtStartup": false
+  },
+  "WebProxy": {
+    "_BypassOnLocal": false,
+    "_ProxyAddress": "http://127.0.0.1:1080",
+    "_BypassList": null,
+    "_UseDefaultCredentials": false
+  }
+}
